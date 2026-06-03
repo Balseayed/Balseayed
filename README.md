@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="profile.png" alt="Basel Alseayed Profile" width="950">
+  <img src="profile.png" alt="Basel Alseayed Banner" width="100%">
 </p>
 
 <h1 align="center">Hi, I'm Basel Alseayed</h1>
