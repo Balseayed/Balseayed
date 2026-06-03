@@ -45,7 +45,7 @@ My goal is to grow from daily IT support into stronger infrastructure and system
 
 ### Windows Server Labs
 
-- [Windows Server Labs]([https://github.com/Balseayed/Balseayed/tree/main/IT-Infrastructure-Labs/Windows-Server])
+- [Windows Server Labs](https://github.com/Balseayed/Balseayed/tree/main/IT-Infrastructure-Labs/Windows-Server)
 
   
 Current lab topics:
