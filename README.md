@@ -1,4 +1,6 @@
-![Uploading PROFILE.png…]()
+
+profile.png
+
 ## Hi there 👋
 
 <!--
