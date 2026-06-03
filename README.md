@@ -2,7 +2,7 @@
   <img src="profile.png" alt="Basel Alseayed Banner" width="100%">
 </p>
 
-<h1 align="center">Hi, I'm Basel Alseayed 👋</h1>
+<h1 align="center">Hi 👋</h1>
 
 <p align="center">
   <b>IT Associate | Infrastructure & IT Operations Support</b>
