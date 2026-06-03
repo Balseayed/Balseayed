@@ -1,5 +1,6 @@
 
 profile.png
+![Profile](profile.png)
 
 ## Hi there 👋
 
