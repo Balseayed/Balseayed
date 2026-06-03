@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="YOUR-LINKEDIN-LINK-HERE">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/balseayed">LinkedIn</a>
 </p>
 
 ---
@@ -82,4 +82,4 @@ Each lab includes:
 
 ## 📫 Connect
 
-* LinkedIn: YOUR-LINKEDIN-LINK-HERE
+* LinkedIn:<a href="https://www.linkedin.com/in/balseayed">balseayed</a>
