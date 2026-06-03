@@ -1,20 +1,42 @@
+<p align="center">
+  <img src="profile.png" alt="Basel Alseayed Profile" width="140">
+</p>
 
-profile.png
-![Profile](profile.png)
+<h1 align="center">Hi, I'm Basel Alseayed</h1>
 
-## Hi there 👋
+<p align="center">
+IT Associate focused on Windows Server, Networking, and IT Operations.
+</p>
 
-<!--
-**Balseayed/Balseayed** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I work in IT support and operations, with hands-on experience supporting users, POS systems, printers, network connectivity, and Windows environments.
+
+I am currently building hands-on labs to improve my skills in Windows Server, Active Directory, Group Policy, File Server, Backup, and infrastructure support.
+
+---
+
+## Current Focus
+
+- Windows Server
+- Active Directory
+- Group Policy
+- DNS & DHCP
+- File Server & NTFS Permissions
+- Backup and Restore
+- Networking Fundamentals
+- IT Operations Documentation
+
+---
+
+## Labs
+
+- [Windows Server Labs](Windows-Server)
+
+---
+
+## Connect
+
+- LinkedIn: add-your-linkedin-here
