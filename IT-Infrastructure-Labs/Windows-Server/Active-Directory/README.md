@@ -51,13 +51,39 @@ I also created security groups for each department. Using groups makes permissio
 
 I prepared a CSV file containing user information such as first name, last name, username, target OU, and group.
 
-Then I used a PowerShell script to create multiple Active Directory users and add them to the required security groups.
-
-This approach is useful because it reduces manual work and makes user creation more consistent.
-
 > Passwords shown in this lab are sample values only.
 
 ![Users CSV Sample](Screenshots/04-users-csv-sample.png)
+
+Then by useing a PowerShell script I created multiple Active Directory users and add them to the required security groups.
+
+This approach is useful because it reduces manual work and makes user creation more consistent.
+```powershell
+Import-Module ActiveDirectory
+
+$Users = Import-Csv "C:\AD-Lab\users.csv"
+
+foreach ($User in $Users) {
+
+    $FullName = "$($User.FirstName) $($User.LastName)"
+    $Password = ConvertTo-SecureString $User.Password -AsPlainText -Force
+
+    New-ADUser `
+        -Name $FullName `
+        -GivenName $User.FirstName `
+        -Surname $User.LastName `
+        -SamAccountName $User.Username `
+        -UserPrincipalName "$($User.Username)@Days.local" `
+        -Path $User.OU `
+        -AccountPassword $Password `
+        -Enabled $true `
+        -ChangePasswordAtLogon $true
+
+    Add-ADGroupMember `
+        -Identity $User.Group `
+        -Members $User.Username
+}
+```
 
 The PowerShell script used in this lab is available here:
 
