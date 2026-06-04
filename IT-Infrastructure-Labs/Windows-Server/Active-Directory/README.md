@@ -55,9 +55,10 @@ I prepared a CSV file containing user information such as first name, last name,
 
 ![Users CSV Sample](Screenshots/04-users-csv-sample.png)
 
-Then by useing a PowerShell script I created multiple Active Directory users and add them to the required security groups.
+Then, using a PowerShell script, I created multiple Active Directory users and added them to the appropriate security groups.
 
 This approach is useful because it reduces manual work and makes user creation more consistent.
+
 ```powershell
 Import-Module ActiveDirectory
 
@@ -84,10 +85,6 @@ foreach ($User in $Users) {
         -Members $User.Username
 }
 ```
-
-The PowerShell script used in this lab is available here:
-
-[create-users.ps1](Scripts/create-users.ps1)
 
 ---
 
