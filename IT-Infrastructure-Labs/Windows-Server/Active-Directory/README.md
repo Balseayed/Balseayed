@@ -57,9 +57,9 @@ This approach is useful because it reduces manual work and makes user creation m
 
 > Passwords shown in this lab are sample values only.
 
-![Users CSV Sample](Screenshots/03-users-csv-sample.png)
+![Users CSV Sample](Screenshots/04-users-csv-sample.png)
 
-![PowerShell Bulk User Script](Screenshots/04-powershell-bulk-user-script.png)
+![PowerShell Bulk User Script](Screenshots/03-powershell-bulk-user-script.png)
 
 ---
 
