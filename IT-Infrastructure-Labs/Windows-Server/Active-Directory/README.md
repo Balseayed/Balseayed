@@ -59,7 +59,9 @@ This approach is useful because it reduces manual work and makes user creation m
 
 ![Users CSV Sample](Screenshots/04-users-csv-sample.png)
 
-![PowerShell Bulk User Script](Screenshots/03-powershell-bulk-user-script.png)
+The PowerShell script used in this lab is available here:
+
+[create-users.ps1](Scripts/create-users.ps1)
 
 ---
 
