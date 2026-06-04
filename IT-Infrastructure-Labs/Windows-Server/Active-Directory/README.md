@@ -31,7 +31,7 @@ AD DS is used to manage users, computers, and domain resources. DNS supports nam
 
 After installing AD DS, I promoted the server to a Domain Controller and created the domain `Days.local`.
 
-![Server Roles Installed](screenshots/01-server-roles-installed.png)
+![Server Roles Installed](Screenshots/01-server-roles-installed.png)
 
 ---
 
