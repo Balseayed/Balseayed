@@ -43,7 +43,7 @@ This structure helps keep Active Directory organized and prepares the environmen
 
 I also created security groups for each department. Using groups makes permission management easier than assigning permissions directly to individual users.
 
-![Security Groups Created](screenshots/02-security-groups-created.png)
+![Security Groups Created](Screenshots/02-security-groups-created.png)
 
 ---
 
@@ -57,9 +57,9 @@ This approach is useful because it reduces manual work and makes user creation m
 
 > Passwords shown in this lab are sample values only.
 
-![Users CSV Sample](screenshots/03-users-csv-sample.png)
+![Users CSV Sample](Screenshots/03-users-csv-sample.png)
 
-![PowerShell Bulk User Script](screenshots/04-powershell-bulk-user-script.png)
+![PowerShell Bulk User Script](Screenshots/04-powershell-bulk-user-script.png)
 
 ---
 
@@ -69,7 +69,7 @@ After running the PowerShell script, the users were created successfully inside 
 
 Each department OU contains its own users, and the users were added to the required security groups.
 
-![Users Created in AD](screenshots/05-users-created-in-ad.png)
+![Users Created in AD](Screenshots/05-users-created-in-ad.png)
 
 ---
 
@@ -79,7 +79,7 @@ I verified the group membership to make sure users were added to the correct dep
 
 This confirms that the users are organized properly and ready to be used later for permissions, file shares, and policy targeting.
 
-![Security Group Membership](screenshots/06-security-group-membership.png)
+![Security Group Membership](Screenshots/06-security-group-membership.png)
 
 ---
 
@@ -89,11 +89,11 @@ I joined a Windows client machine to the `Days.local` domain.
 
 After joining the domain, the computer object appeared in Active Directory under the correct computer OU.
 
-![Client Computer Object](screenshots/07-client-computer-object.png)
+![Client Computer Object](Screenshots/07-client-computer-object.png)
 
 I also tested the client from Windows settings to confirm that the machine is connected to the domain.
 
-![Client Domain Joined](screenshots/08-client-domain-joined.png)
+![Client Domain Joined](Screenshots/08-client-domain-joined.png)
 
 ---
 
@@ -103,7 +103,7 @@ I reviewed the DNS zone records for the `Days.local` domain.
 
 The DNS records show the Domain Controller and the joined client machine. This is important because Active Directory relies on DNS for clients to locate and communicate with domain services.
 
-![DNS Zone Records](screenshots/09-dns-zone-records.png)
+![DNS Zone Records](Screenshots/09-dns-zone-records.png)
 
 ---
 
@@ -113,7 +113,7 @@ During the lab, I faced an issue when trying to move an Organizational Unit. Act
 
 This issue was related to object protection settings in Active Directory.
 
-![Access Denied Moving OU](screenshots/10-access-denied-moving-ou.png)
+![Access Denied Moving OU](Screenshots/10-access-denied-moving-ou.png)
 
 To investigate the issue, I enabled Advanced Features in Active Directory Users and Computers and checked the Object tab.
 
