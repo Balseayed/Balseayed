@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="profile.png" alt="Basel Alseayed Banner" width="100%">
-</p>
 
 <h1 align="center">Hi 👋</h1>
 
