@@ -1,83 +1,82 @@
+# Basel's IT Infrastructure Labs
 
-<h1 align="center">Hi 👋</h1>
-
-<p align="center">
-  <b>IT Associate | Infrastructure & IT Operations Support</b>
-</p>
-
-<p align="center">
-  Windows Server • Active Directory • Networking • Group Policy • Backup & Recovery
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/balseayed">LinkedIn</a>
-</p>
+Hands-on IT infrastructure labs and projects covering Windows Server, Active Directory, PowerShell, networking, and IT operations.
 
 ---
 
-## 👨‍💻 About Me
+## Featured Projects
 
-I work in IT support and operations, with hands-on experience supporting users, POS systems, printers, network connectivity, and Windows-based environments.
+### Active Directory Least-Privilege Delegation
 
-I am currently building practical infrastructure labs to improve my skills in Windows Server, Active Directory, Group Policy, File Server, Backup, and IT operations documentation.
+Designed and validated a role-based IT support model using separate privileged accounts, security groups, delegated permissions, RSAT, Group Policy, and allowed/denied access testing.
 
-My goal is to grow from daily IT support into stronger infrastructure and system administration roles.
-
----
-
-## 🚀 Current Focus
-
-* Windows Server Administration
-* Active Directory Domain Services
-* Group Policy Management
-* DNS & DHCP
-* File Server & NTFS Permissions
-* Backup and Restore
-* Networking Fundamentals
-* IT Operations Documentation
+[View Project](https://github.com/Balseayed/IT-Infrastructure-Labs/tree/main/Windows-Server/IT-Delegation-and-Access-Control)
 
 ---
 
-## 🧪 Hands-on Labs
+### Domain Controller Replication and DNS Redundancy
 
-### Windows Server Labs
+Deployed an additional Domain Controller and validated Active Directory replication, DNS redundancy, domain controller discovery, and client-side name resolution.
 
-- [Windows Server Labs](https://github.com/Balseayed/IT-Infrastructure-Labs/tree/main/Windows-Server)
-
-  
-Current lab topics:
-
-* Active Directory & Group Policy
-* File Server & NTFS Permissions
-* Windows Server Backup & Recovery
+[View Project](https://github.com/Balseayed/IT-Infrastructure-Labs/tree/main/Windows-Server/DC02-Replication-and-DNS-Redundancy)
 
 ---
 
-## 🛠️ Technical Skills
+### Advanced Windows File Server
 
-<p>
-  <img src="https://img.shields.io/badge/Windows%20Server-Administration-0078D4?style=for-the-badge&logo=windows&logoColor=white">
-  <img src="https://img.shields.io/badge/Active%20Directory-Identity%20Management-0A66C2?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Networking-TCP%2FIP%20%7C%20DNS%20%7C%20DHCP-2E8B57?style=for-the-badge">
-  <img src="https://img.shields.io/badge/VMware-Virtualization-607078?style=for-the-badge&logo=vmware&logoColor=white">
-</p>
+Built a dedicated File Server with NTFS permissions, Access-Based Enumeration, FSRM quotas, file screening, Shadow Copies, and file-access auditing.
+
+[View Project](https://github.com/Balseayed/IT-Infrastructure-Labs/tree/main/Windows-Server/File-Server/Advanced-File-Server-Features)
 
 ---
 
-## 📌 What I’m Building
+## Currently Building
 
-I use this GitHub profile to document my hands-on learning journey in IT infrastructure.
+### FS01 Operations and Maintenance
 
-Each lab includes:
+An operations-focused lab covering:
 
-* The goal of the lab
-* Tools and environment used
-* Screenshots and implementation steps
-* Problems faced during the lab
-* What I learned from the process
+- Infrastructure baseline checks
+- Controlled maintenance
+- PowerShell operational validation
+- Service and network verification
+- Troubleshooting and post-maintenance testing
+
+_Status: In progress_
 
 ---
 
-## 📫 Connect
+## Lab Areas
 
-* LinkedIn:<a href="https://www.linkedin.com/in/balseayed">balseayed</a>
+- Active Directory Domain Services
+- DNS and DHCP
+- Group Policy
+- File Services and NTFS Permissions
+- Backup and Recovery
+- Domain Controller Redundancy
+- Role-Based Access Control
+- PowerShell Operations
+- Infrastructure Troubleshooting
+
+---
+
+## Documentation Approach
+
+Each completed lab includes:
+
+- Technical objective and environment
+- Implementation details
+- Screenshots and validation evidence
+- Problems encountered
+- Troubleshooting process
+- Final results and future improvements
+
+---
+
+## Full Lab Repository
+
+[Explore IT Infrastructure Labs](https://github.com/Balseayed/IT-Infrastructure-Labs)
+
+---
+
+[LinkedIn](https://www.linkedin.com/in/balseayed)
